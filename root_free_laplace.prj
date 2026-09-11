@@ -1,0 +1,149 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="C:\LyX_Scripts\SCRIPTS_PY\INVERSA_LAPLACE\MI_ALGORITMO\root_free_laplace\root_free_laplace.prj" location="C:\LyX_Scripts\SCRIPTS_PY\INVERSA_LAPLACE\MI_ALGORITMO\root_free_laplace" name="root_free_laplace" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Root-Free Numerical Laplace Inversion Toolbox</param.appname>
+    <param.authnamewatermark>Advanced Numerical Laplace Inversion Group</param.authnamewatermark>
+    <param.email>support@laplace-rootfree.org</param.email>
+    <param.company>Scientific Computing &amp; Numerical Analysis</param.company>
+    <param.summary>High-order spectral and orthogonal inverse Laplace transforms up to K = 1,000,000 strictly without root-finding.</param.summary>
+    <param.description>Root-Free Numerical Laplace Inversion Toolbox for MATLAB and GNU Octave.
+
+Key Features:
+- 100% Root-Free: Inverts high-order rational fractions without computing denominator roots, avoiding the Wilkinson ill-conditioning catastrophe.
+- Taylor-Hump Elimination: Employs conformal Möbius-Laguerre orthogonal projections and Laurent-Stirling log-space recursions.
+- Massive Order Support: Inverts systems from degree K = 1 up to K = 1,000,000 via FactorPoly and PartialFractions.
+- Interactive Desktop Studio: Includes LaplaceGUI for dual real-time plotting, engineering presets, and CSV/Workspace data export.
+- Pure MATLAB implementation compatible with R2018b through R2026+ and GNU Octave 10+.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\toolbox_logo.png</param.screenshot>
+    <param.version>1.0.0</param.version>
+    <param.output>${PROJECT_ROOT}\root_free_laplace.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.5</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>a8f9c2d1-e4b7-4a6c-9d2e-8f1b3c5a7e90</param.guid>
+    <param.exclude.filters>% List of paths to exclude from packaging
+.git
+*.asv
+*.bak
+*.tmp
+run_tests_octave.bat
+iniciar_octave.bat
+abrir_octave_gui.bat</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleData&gt;
+      &lt;name&gt;ex01_basic_rational&lt;/name&gt;
+      &lt;type&gt;m&lt;/type&gt;
+      &lt;file&gt;examples/ex01_basic_rational.m&lt;/file&gt;
+   &lt;/exampleData&gt;
+   &lt;exampleData&gt;
+      &lt;name&gt;ex02_harmonic_5000&lt;/name&gt;
+      &lt;type&gt;m&lt;/type&gt;
+      &lt;file&gt;examples/ex02_harmonic_5000.m&lt;/file&gt;
+   &lt;/exampleData&gt;
+   &lt;exampleData&gt;
+      &lt;name&gt;ex03_chebyshev1000000&lt;/name&gt;
+      &lt;type&gt;m&lt;/type&gt;
+      &lt;file&gt;examples/ex03_chebyshev_1000000.m&lt;/file&gt;
+   &lt;/exampleData&gt;
+   &lt;exampleData&gt;
+      &lt;name&gt;ex04_diffusion_step&lt;/name&gt;
+      &lt;type&gt;m&lt;/type&gt;
+      &lt;file&gt;examples/ex04_diffusion_step.m&lt;/file&gt;
+   &lt;/exampleData&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps>
+      <file>${PROJECT_ROOT}\app\LaplaceGUI.m</file>
+    </param.apps>
+    <param.registered.apps />
+    <param.docs>${PROJECT_ROOT}\doc\helptoc.xml</param.docs>
+    <param.getting.started.guide>${PROJECT_ROOT}\doc\getting_started.html</param.getting.started.guide>
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>true</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start>R2018b</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.company />
+      <param.platforms />
+      <param.demosxml />
+      <param.registered.apps />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.current.only />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\+laplace</file>
+      <file>${PROJECT_ROOT}\app</file>
+      <file>${PROJECT_ROOT}\Contents.m</file>
+      <file>${PROJECT_ROOT}\doc</file>
+      <file>${PROJECT_ROOT}\examples</file>
+      <file>${PROJECT_ROOT}\info.xml</file>
+      <file>${PROJECT_ROOT}\install_toolbox.m</file>
+      <file>${PROJECT_ROOT}\start_toolbox.m</file>
+      <file>${PROJECT_ROOT}\tests</file>
+      <file>${PROJECT_ROOT}\toolbox_logo.png</file>
+      <file>${PROJECT_ROOT}\uninstall_toolbox.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="root_free_laplace.mltbx" optional="false">${PROJECT_ROOT}\root_free_laplace.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

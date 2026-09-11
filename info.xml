@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="optional/productinfo.xsd">
+    <matlabrelease>2020b</matlabrelease>
+    <name>Root-Free Numerical Laplace Inversion Toolbox</name>
+    <type>Toolbox</type>
+    <icon>doc/toolbox_logo.png</icon>
+    <help_location>doc</help_location>
+</productinfo>

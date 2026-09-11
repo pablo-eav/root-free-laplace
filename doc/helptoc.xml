@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding="utf-8"?>
+<toc version="2.0">
+    <tocitem target="index.html">Root-Free Numerical Laplace Inversion Toolbox
+        <tocitem target="getting_started.html">Primeros Pasos (Getting Started)</tocitem>
+        <tocitem target="functions_ref.html">Referencia de Funciones y Clases</tocitem>
+        <tocitem target="technical_derivations.html">Proyecto Técnico y Derivaciones Matemáticas</tocitem>
+        <tocitem target="examples.html">Casos de Estudio y Ejemplos de Ingeniería</tocitem>
+    </tocitem>
+</toc>
