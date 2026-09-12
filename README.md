@@ -5,7 +5,7 @@
 [![View Root-Free Laplace on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com)
 [![Platform](https://img.shields.io/badge/platform-MATLAB%20%7C%20Octave-orange.svg)](https://www.mathworks.com)
-[![License](https://img.shields.io/badge/license-Commercial%20%2F%2030--Day%20Trial-green.svg)](https://aballepe.gumroad.com/l/root-free-laplace)
+[![License](https://img.shields.io/badge/license-Commercial%20%2F%2030--Day%20Trial-green.svg)](https://rootfreelaplace.lemonsqueezy.com/checkout/buy/764715dc-3f4b-4f8f-956d-aebc574b217f)
 
 **Industrial-Grade Numerical Inversion of Massive-Order Transfer Functions Without Root-Finding.**
 
@@ -45,7 +45,7 @@ The **Root-Free Laplace Inversion Toolbox** computes exact time-domain responses
 This toolbox includes an **automatic 30-day full-featured evaluation trial** upon installation.
 
 To acquire an annual subscription key (Student, Academic, or Commercial PRO), please visit:
-👉 **[Official Subscription Store (Gumroad)](https://aballepe.gumroad.com/l/root-free-laplace)**
+👉 **[Official Subscription Store (Lemon Squeezy)](https://rootfreelaplace.lemonsqueezy.com/checkout/buy/764715dc-3f4b-4f8f-956d-aebc574b217f)**
 
 | Subscription Tier | Annual Fee | Target Audience |
 | :--- | :---: | :--- |
@@ -100,9 +100,9 @@ If you use this toolbox in your scientific research or industrial design, please
   title = {{Root-Free Numerical Laplace Inversion Toolbox for MATLAB \& Octave}},
   version = {1.0.0},
   year = {2026},
-  url = {https://aballepe.gumroad.com/l/root-free-laplace}
+  url = {https://rootfreelaplace.lemonsqueezy.com/checkout/buy/764715dc-3f4b-4f8f-956d-aebc574b217f}
 }
 ```
 
 - **Author**: Pablo Enrique Aballe Vázquez
-- **Store & Subscriptions**: [https://aballepe.gumroad.com/l/root-free-laplace](https://aballepe.gumroad.com/l/root-free-laplace)
+- **Store & Subscriptions**: [https://rootfreelaplace.lemonsqueezy.com/checkout/buy/764715dc-3f4b-4f8f-956d-aebc574b217f](https://rootfreelaplace.lemonsqueezy.com/checkout/buy/764715dc-3f4b-4f8f-956d-aebc574b217f)
