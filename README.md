@@ -50,7 +50,7 @@ To acquire an annual subscription key (Student, Academic, or Commercial PRO), pl
 | Subscription Tier | Annual Fee | Target Audience |
 | :--- | :---: | :--- |
 | **Student / Thesis** | **29 € / year** | Undergraduate, Master's, or PhD thesis projects. |
-| **Academic & University** | **1,299 € / year** | Faculty, university labs, and peer-reviewed publications. |
+| **Academic & University** | **129 € / year** | Faculty, university labs, and peer-reviewed publications. |
 | **Commercial PRO Industrial** | **299 € / year** | Engineering firms, aerospace, defense, RF filter design, and commercial deployment. |
 
 Once subscribed, activate your license in MATLAB with:
